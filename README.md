@@ -6,20 +6,34 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-
+Get the file name as the input from the user
 ### Step 2: 
- 
+Open the file using the withopen function
 ### Step 3: 
-
+Use for loop and split function function
 ### Step 4:  
-
+Find the length using the *num_words += len(words)*
 ### Step 5: 
-
+Print the program
 ### Step 6: 
-
+End the progrm
 ## PROGRAM:
-
+```
+Word count
+Name: Barth S
+Register no: 22008643
+```
+```python
+ffname = input('Enter file name: ')
+num_words = 0
+with open(fname, 'r') as f:
+    for line in f:
+        words = line.split()
+        num_words += len(words)
+print('Number of words: ', num_words)
+```
 ### OUTPUT:
+![model](op.png)
 
 
 
